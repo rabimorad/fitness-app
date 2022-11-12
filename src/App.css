@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&family=Raleway:wght@400;600&display=swap');
 body {
   font-family: 'Josefin Sans';
   background-color: #FFFAFB;
@@ -45,7 +46,7 @@ body {
 .react-horizontal-scrolling-menu--wrapper {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .detail-image {
@@ -57,8 +58,8 @@ body {
   position: absolute;
   right: 40px;
   top: 0px;
-  width: 700px;
-  height: 900px;
+  width: 800px;
+  height: 1000px;
   margin-top: -330px;
 
 }
